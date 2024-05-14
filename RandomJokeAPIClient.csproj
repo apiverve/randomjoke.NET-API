@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.RandomJoke</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/randomjoke</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Random Joke is a simple tool for getting random jokes. It returns a random joke from a collection of jokes.</Description>
+    <RepositoryUrl>https://github.com/apiverve/randomjoke-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>random joke; random joke api; random joke tool; random joke software; random joke service; random joke library; random joke sdk; random joke code; random joke script; random joke program; random joke application; random joke app; random joke utility; random joke helper; random joke helper tool; random joke helper software; random joke helper service; random joke helper library; random joke helper sdk; random joke helper code; random joke helper script; random joke helper program; random joke helper application; random joke helper app; random joke helper tool; random joke helper utility; random joke helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
