@@ -92,9 +92,9 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "score": 3,
-    "setup": "What do Fort McMurray and a 1998 Pontiac Sunfire have in common?",
-    "punchline": "Both are full of white trash and smell like burning oil."
+    "score": 1,
+    "setup": "The thing about....",
+    "punchline": "What's the hardest thing about being a being a pedophile nowadays?  Too many damn sexy 9 year olds."
   },
   "code": 200
 }
